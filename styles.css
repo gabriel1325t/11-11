@@ -1,0 +1,112 @@
+/* Estilos globais aplicados a todos os elementos da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Define estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte principal */
+    background-color: #ffffff; /* Define uma cor de fundo suave */
+    color: #333; /* Define a cor padrão do texto */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+    position: relative; /* Define o contexto de posicionamento relativo para o rodapé */
+    padding-bottom: 100px; /* Cria espaço para o rodapé na parte inferior da página */
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: #c8cccd; /* Define a cor de fundo do cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Define a cor do texto no cabeçalho */
+    justify-content:flex;
+    justify-content: center;
+  }
+  
+  /* Estilos da div que contém a logo e o título */
+  header .logo {
+    display: flex; /* Usa flexbox para alinhar a logo e o título */
+    align-items: center; /* Alinha verticalmente os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    font-size:24px;
+  }
+  /* Estilos para o título dentro do cabeçalho */
+header nav{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+  
+  /* Estilo de cada item da lista de navegação */
+  nav ul li2 {
+    margin: 0 15px; /* Espaçamento horizontal entre os itens */
+  }
+  
+  /* Estilo dos links de navegação */
+  nav ul li2 a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Texto em negrito */
+  }
+
+  /* Estilo do conteúdo principal */
+main {
+    padding: 20px; /* Espaçamento interno */
+  }
+  /* Estilo aplicado a cada seção dentro do main */
+main section {
+    margin-bottom: 60px; /* Espaçamento inferior entre as seções */
+  }
+/* Estilo do rodapé */
+footer {
+    background-color: #c8cccd; /* Cor de fundo escura */
+    color: white; /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Espaçamento interno no topo e na base */
+    width: 100%; /* Faz com que o rodapé ocupe toda a largura */
+    position: fixed; /* Posiciona o rodapé de forma absoluta */
+    bottom: 0; /* Posiciona o rodapé na parte inferior da página */
+  }
+    
+img {
+    width: 200px; 
+    
+}
+h2{
+    display: flex;
+    background-color: #9b9b9b; /* Cor de fundo para destacar a seção 'home' */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    padding: 50px
+}
+
+#Texto {
+    display: flex;
+    background-color: #9b9b9b; /* Cor de fundo para destacar a seção 'home' */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px
+    
+  }
+
+section{
+    align-items: center;
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex;
+    justify-content: center; 
+    justify-content: space-between;
+
+  }
+
+  #Texto1 {
+    display: flex;
+    background-color: #1f99df; /* Cor de fundo para destacar a seção 'home' */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    padding: 50px
+    
+  }
